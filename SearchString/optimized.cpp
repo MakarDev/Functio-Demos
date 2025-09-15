@@ -326,7 +326,6 @@ int main() {
     const int iterations = 10;
     std::vector<Occurrence> results;
 
-    auto start_time = std::chrono::high_resolution_clock::now();
 
     for (int i = 0; i < iterations; ++i) {
         // Clear results for each run to avoid accumulating forever
